@@ -1,169 +1,172 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Papyrus';
-  }
-  
-  body, html {
-    height: 100%;
-  }
-  
-  header {
-    background: url('catubig_church.jpg') no-repeat center center/cover;
-    color: white;
-    padding-bottom: 60px;
-  }
-  
-  /* Navigation */
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .logo img {
-    width: auto;
-    height: 100px;
-    object-fit: contain;
-  }  
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    font-size: 20px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links li:hover {
-    color: #ff5e5e;
-  }
-  
-  /* Add listing button */
-  .add-listing {
-    background-color: #ff5e5e;
-    font-size: 20px;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .add-listing:hover {
-    background-color: #e74c3c;
-  }
-  
-  /* Hero content */
-  .hero {
-    text-align: center;
-    padding: 80px 20px 40px;
-  }
-  
-  .hero h1 span {
-    font-weight: bold;
-    display: block;
-    font-size: 48px;
-  }
-  
-  .hero h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .hero p {
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-  
-  /* Search box */
-  .search-box {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .search-box input {
-    padding: 10px;
-    width: 200px;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  .search-box button {
-    padding: 10px 20px;
-    background-color: #ff5e5e;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .search-box button:hover {
-    background-color: #e74c3c;
-  }
-  
-  /* Category buttons */
-  .categories {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-  
-  .categories button {
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .categories button:hover {
-    background-color: #ff5e5e;
-    color: white;
-  }
-  
-  /* Highlights / Feature Cards */
-  .highlights {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 60px 20px;
-    background-color: #BE7656	;
-  }
-  
-  .card {
-    background-color: #794028;
-    padding: 30px;
-    margin: 15px;
-    width: 250px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
-  }
-  
-  .card .icon {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Papyrus';
+}
+
+body,
+html {
+  height: 100%;
+}
+
+header {
+  background: url('catubig_church.jpg') no-repeat center center/cover;
+  color: white;
+  padding-bottom: 60px;
+}
+
+/* Navigation  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+  width: auto;
+  height: 100px;
+  object-fit: contain;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #761f1f;
+}
+
+/* Add listing button */
+.add-listing {
+  background-color: #794028;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-listing:hover {
+  background-color: #633d2c;
+}
+
+/* Hero content */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.hero h1 span {
+  font-weight: bold;
+  display: block;
+  font-size: 48px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgb(77, 240, 13);
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #794028;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #8c5c47;
+}
+
+/* Category buttons */
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.categories button {
+  padding: 15px 40px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  background-color: #794028;
+  box-shadow: 0 6px 0 #BE7656, 0 8px 20px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.categories button:active {
+  box-shadow: 0 2px 0 #794028, 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(6px);
+}
+
+/* Highlights / Feature Cards */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #BE7656;
+}
+
+.card {
+  background: url('vintage.jpg') no-repeat center center/cover;
+  padding: 30px;
+  margin: 15px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card .icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
